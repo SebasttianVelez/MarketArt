@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('mixDeploy-landing app is running!');
+    expect(page.getTitleText()).toEqual('MarketArtPlatform app is running!');
   });
 
   afterEach(async () => {
