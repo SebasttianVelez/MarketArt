@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavbarUnloggedComponent } from './components/shared/navbar-unlogged/navbar-unlogged.component';
+import { LandingHomeComponent } from './components/landing/landing-home/landing-home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarUnloggedComponent,
+    LandingHomeComponent,
   ],
   imports: [
     BrowserModule,
